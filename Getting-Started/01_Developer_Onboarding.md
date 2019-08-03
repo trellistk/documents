@@ -27,9 +27,8 @@ We have public repos in our GitHub org but also private repos in Amber's account
   - Tools: Node, React, Jest, TDD, Heroku CI
 
 ## PreRequisites
-NOTES: We highly recommend using a Mac computer as it will make development much easier but if you have a PC, Take a look at the [Windows Setup Documentation](windows-setup.md).
 
-## Communications:
+### Communications:
 - [Slack](https://slack.com/downloads)
   - Profile:
     - Add a picture of you so we know what you look like
@@ -39,7 +38,8 @@ NOTES: We highly recommend using a Mac computer as it will make development much
     - If you're actively developing: #nouri_app
 - [Google Account](https://accounts.google.com/signup/)
 
-## Development
+### Development
+NOTES: We highly recommend using a Mac computer as it will make development much easier but if you have a PC, Take a look at the [Windows Setup Documentation](windows-setup.md).
 - Install
   - [Node](https://nodejs.org/en/download/)
   - [Git](https://www.atlassian.com/git/tutorials/install-git)
@@ -49,7 +49,7 @@ NOTES: We highly recommend using a Mac computer as it will make development much
 - Optional for visual people
   - [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
-## Read Ahead
+### Read Ahead
 - [Getting Started with Git](https://rogerdudler.github.io/git-guide/)
 - [Git Standard Operating Procedures](../SOPs/Git_Standard_Operating_Procedures.md)
 - [Finding Stuff to Work On](02_GitHub_Issues.md)
