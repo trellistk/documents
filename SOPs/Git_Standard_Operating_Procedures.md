@@ -11,7 +11,12 @@ We highly recommend using a tool such as SourceTree to help you visualize what i
 
 ## The Steps
 
-### Update master
+### Update develop or master
+```
+git checkout develop
+git pull origin develop
+```
+
 ```
 git checkout master
 git pull origin master
@@ -43,15 +48,15 @@ ambergkim/docs/github-workflow
 ```
 
 ### Create Your Branch
-Create your new branch while you are on master so that you are autmatically branched from master. Example:
+Create your new branch while you are on develop so that you are autmatically branched from develop. Example:
 ```
 git checkout -b ambergkim/docs/github-workflow
 ```
 
 ### Rebasing an Existing Branch
-After you have updated your master with the remote master, check out your existing branch then do:
+After you have updated your develop with the remote develop, check out your existing branch then do:
 ```
-git rebase master
+git rebase develop
 ```
 Resolve all your conflicts then push up to your remote branch. You may have to do a
 ```
@@ -89,7 +94,7 @@ npm run test
 ```
 
 ### Creating Your Pull Request
-Create your pull request to master. Assign a merge master and any relevant folks to review your code. It is important to have a good description of what your pull request is all about. Include this information in your pull request when relevant:
+Create your pull request to develop. Assign a merge develop and any relevant folks to review your code. It is important to have a good description of what your pull request is all about. Include this information in your pull request when relevant:
 - [ ] Descriptive but concise title
 - [ ] The problem you are trying to solve
 - [ ] Your approach to solving the problem
