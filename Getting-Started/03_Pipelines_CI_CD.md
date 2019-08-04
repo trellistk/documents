@@ -1,6 +1,6 @@
 # Pipelines and CI/CD
 
-Notes: This currently applies to the [Back End API](https://github.com/ambergkim/nouri-api) but in the process of being implemented for the [Website](https://github.com/nourimeals/website) and [Front End App](https://github.com/ambergkim/nouri-native).
+Notes: This currently applies to the [Back End API](https://github.com/ambergkim/nouri-api) and [Front End App](https://github.com/ambergkim/nouri-native) but in the process of being implemented for the [Website](https://github.com/nourimeals/website) and the Front End App only runs the tests is not deployed since they are mobile apps.
 
 ## The Workflow
 ### Initial
