@@ -50,10 +50,20 @@ NOTES: We highly recommend using a Mac computer as it will make development much
   - [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
 ### Read Ahead
+#### Learning Git Resources
 - [Getting Started with Git](https://rogerdudler.github.io/git-guide/)
-- [Git Standard Operating Procedures](../SOPs/Git_Standard_Operating_Procedures.md)
+- [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
+- [How to use Git efficiently](https://www.freecodecamp.org/news/how-to-use-git-efficiently-54320a236369/?source=linkShare-e41cd5edcdac-1535829065)
+
+#### Nouri SOP's
+- [Nouri's Git Standard Operating Procedures](../SOPs/Git_Standard_Operating_Procedures.md)
 - [Finding Stuff to Work On](02_GitHub_Issues.md)
 - [Pipelines/TDD/CI/CD.md](03_Pipelines_CI_CD.md)
+
+#### Reading and Reference Materials
+  * [ES6 Features](http://es6-features.org/)
+  * [Eloquent JavaScript](http://eloquentjavascript.net/)
+  * [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS)
 
 ## Meetings:
 - [Planning](https://docs.google.com/document/d/1Q_A0m_WtXixXp2mU2jzjUKOdWEdRajeeUR6InBdEn9Y/edit#heading=h.5fm44xysy1n9)
