@@ -28,6 +28,10 @@
 - Optional for visual people
   * [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
+## TROUBLESHOOTING
+- If ``` npm i ``` or ``` npm install ``` inside the repo complains about python, you may need to install [node-gyp](https://github.com/nodejs/node-gyp#on-windows) globally.
+  - You may also need to install bcrypt if it keeps complaing with ``` npm install --save bcrypt ```
+
 Proceed to the rest of the Developer Onboarding Document.
 
 ## Useful Resources for New Developers
