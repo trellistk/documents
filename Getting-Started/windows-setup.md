@@ -6,26 +6,31 @@
   * This [video](https://www.youtube.com/watch?v=2j7fD92g-gE) will walk you through the installation choices.  
   * To set it as your integrated terminal in Visual Studio Code, got to **settings**, click on **Features**, click on **Terminal**. Find “Integrated > Shell: Windows”. Click **Edit in settings.json**. Inside the brackets, type this:  
   * “terminal.integrated.shell.windows”: “C:\\Program Files\\Git\\bin\\bash.exe”    .
-- [ ] Install [Node](nodejs.org) OR [nvm-windows](https://github.com/coreybutler/nvm-windows).  
+- [ ] Install [Node](nodejs.org) OR [nvm-windows](https://github.com/coreybutler/nvm-windows).
   * I prefer nvm as it lets me easily switch between different versions of node for many projects.
-- [ ] Install [Mongo](https://docs.mongodb.com/guides/server/install/)
+  * after using the installer inside the zip file nvm-setup.zip, you will likely need to tell nvm to use the version you installed.
+  ```
+  nvm use <latest node version>
+  ```
+  * In the end, you should be able to type ``` node -v ``` or ``` npm ``` and get good feedback in the cmd.exe prompt or bash. If bash doesn't show, try closing it and restarting it.
+- [ ] Install [Mongo](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/).
+  * After installation, follow the instructions to set up the correct folders and how to start your database using the cmd prompt.
+  * You will need the mongodb to be running in the background if you want to use your local database with the API app.
 - [ ] Install [REST Clients](https://www.getpostman.com/products)  
   * The individual plan is free.
   * Postman will allow you to easily test API servers using any of the standard RESTful methods (GET,POST,PUT,PATCH,DELETE) with full control over headers, body and authentication.
 
 - [ ] Don't forget to install npm with `npm install -g npm`. The `-g` flag will install npm onto your machine instead of your package.json file, so it will be available for this and all future projects.
 
+- [ ] Install Extra useful tools
+  * [Postman](https://www.getpostman.com/downloads/)
+  * [Robo 3T](https://robomongo.org/download)
+- Optional for visual people
+  * [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
+
+Proceed to the rest of the Developer Onboarding Document.
 
 ## Useful Resources for New Developers
 
-### Git Good
-  * [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
-  * [How to use Git efficiently](https://www.freecodecamp.org/news/how-to-use-git-efficiently-54320a236369/?source=linkShare-e41cd5edcdac-1535829065)
-
 ### Nodejs info from Microsoft
   * [NodeJS On Windows Guidelines](https://github.com/Microsoft/nodejs-guidelines)
-
-### Reading and Reference Materials
-  * [ES6 Features](http://es6-features.org/)
-  * [Eloquent JavaScript](http://eloquentjavascript.net/)
-  * [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS)
