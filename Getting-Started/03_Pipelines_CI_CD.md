@@ -9,7 +9,7 @@ Notes: This currently applies to the [Back End API](https://github.com/ambergkim
 ### Ongoing
 1. Pull down the ```develop``` branch
 2. Create your own branch from ```develop```
-- Checkout the [Git SOP](SOPs/Git_Standard_Operating_Procedures.md)
+- Checkout the [Git SOP](https://github.com/nourimeals/documents/blob/master/SOPs/Git_Standard_Operating_Procedures.md)
 3. Do your work
 4. Create your PR
 5. Ensure your PR is passing the Heroku CI Build
