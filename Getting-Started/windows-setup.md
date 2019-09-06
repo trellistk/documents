@@ -16,6 +16,7 @@
 - [ ] Install [Mongo](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/).
   * After installation, follow the instructions to set up the correct folders and how to start your database using the cmd prompt.
   * You will need the mongodb to be running in the background if you want to use your local database with the API app.
+  * [Creating Aliases for Mongo](https://teamtreehouse.com/community/how-to-setup-mongodb-on-windows-cmd-or-gitbash-with-shortcuts) This will allow you to simply type 'mongod' or 'mongo' to start up the database instead of the annoyingly long file path shown in the Mongo Docs.
 - [ ] Install [REST Clients](https://www.getpostman.com/downloads/)  
   * The individual plan is free.
   * Postman will allow you to easily test API servers using any of the standard RESTful methods (GET,POST,PUT,PATCH,DELETE) with full control over headers, body and authentication.
