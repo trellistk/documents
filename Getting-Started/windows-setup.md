@@ -16,21 +16,19 @@
 - [ ] Install [Mongo](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/).
   * After installation, follow the instructions to set up the correct folders and how to start your database using the cmd prompt.
   * You will need the mongodb to be running in the background if you want to use your local database with the API app.
-- [ ] Install [REST Clients](https://www.getpostman.com/products)  
+- [ ] Install [REST Clients](https://www.getpostman.com/downloads/)  
   * The individual plan is free.
   * Postman will allow you to easily test API servers using any of the standard RESTful methods (GET,POST,PUT,PATCH,DELETE) with full control over headers, body and authentication.
 
-- [ ] Don't forget to install npm with `npm install -g npm`. The `-g` flag will install npm onto your machine instead of your package.json file, so it will be available for this and all future projects.
 
 - [ ] Install Extra useful tools
-  * [Postman](https://www.getpostman.com/downloads/)
   * [Robo 3T](https://robomongo.org/download)
 - Optional for visual people
   * [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
 ## TROUBLESHOOTING
 - If ``` npm i ``` or ``` npm install ``` inside the repo complains about python, you may need to install [node-gyp](https://github.com/nodejs/node-gyp#on-windows) globally.
-  - You may also need to install bcrypt if it keeps complaing with ``` npm install --save bcrypt ```
+  - You may also need to install bcrypt if it keeps complaining with ``` npm install --save bcrypt ```
 
 Proceed to the rest of the Developer Onboarding Document.
 
