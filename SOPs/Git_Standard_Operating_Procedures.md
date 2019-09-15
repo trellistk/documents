@@ -1,7 +1,7 @@
 # Git Standard Operating Procedures.
 
 ## Overview
-We will be using the rebase and merge strategy for keeping our history clean. As a safety net, only 'Rebase and merge' has been disabled for all our repositories. If you have not yet worked using this strategy, check out this [tutorial](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) online.
+We will be using the rebase and merge strategy for keeping our history clean. As a safety net, only 'Rebase and merge' has been enabled for all our repositories. If you have not yet worked using this strategy, check out this [tutorial](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) online.
 
 We highly recommend using a tool such as SourceTree to help you visualize what is going on with the history and your current place in it.
 
