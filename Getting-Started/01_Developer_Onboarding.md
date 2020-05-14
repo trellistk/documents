@@ -43,7 +43,7 @@ NOTES: We highly recommend using a Mac computer as it will make development much
 - Install
   - [Node](https://nodejs.org/en/download/)
   - [Git](https://www.atlassian.com/git/tutorials/install-git)
-  - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+  - [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
   - [Postman](https://www.getpostman.com/downloads/)
   - [Robo 3T](https://robomongo.org/download)
 - Optional for visual people
