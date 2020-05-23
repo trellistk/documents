@@ -19,12 +19,12 @@ We have public repos in our GitHub org but also private repos in Amber's account
   - Tools: Markdown
 - [Website](https://github.com/nourimeals/website)
   - Tools: Node, React
-- [Back End API](https://github.com/ambergkim/nouri-api)
+- [Back End API](https://github.com/ambergkim/nouri-serverless)
   - Private
-  - Tools: Node, Jest, TDD, Heroku CI
+  - Tools: Node, Jest, TDD, Serverless, DynamoDB
 - [Front End App](https://github.com/ambergkim/nouri-native)
   - Private
-  - Tools: Node, React, Jest, TDD, Heroku CI
+  - Tools: Node, React-Native, Jest, TDD
 
 ## PreRequisites
 
@@ -35,7 +35,7 @@ We have public repos in our GitHub org but also private repos in Amber's account
     - Under ```Skype``` Add your github handle and your email
     - Under ```What I do``` Add your position and skills
   - Channels:
-    - If you're actively developing: #nouri_app
+    - If you're actively developing: #nouri_developers
 - [Google Account](https://accounts.google.com/signup/)
 
 ### Development
@@ -45,7 +45,6 @@ NOTES: We highly recommend using a Mac computer as it will make development much
   - [Git](https://www.atlassian.com/git/tutorials/install-git)
   - [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
   - [Postman](https://www.getpostman.com/downloads/)
-  - [Robo 3T](https://robomongo.org/download)
 - Optional for visual people
   - [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
