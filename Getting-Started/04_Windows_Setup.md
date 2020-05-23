@@ -13,18 +13,12 @@
   nvm use <latest node version>
   ```
   * In the end, you should be able to type ``` node -v ``` or ``` npm ``` and get good feedback in the cmd.exe prompt or bash. If bash doesn't show, try closing it and restarting it.
-- [ ] Install [Mongo](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/).
-  * After installation, follow the instructions to set up the correct folders and how to start your database using the cmd prompt.
-  * You will need the mongodb to be running in the background if you want to use your local database with the API app.
-  * [Creating Aliases for Mongo](https://teamtreehouse.com/community/how-to-setup-mongodb-on-windows-cmd-or-gitbash-with-shortcuts) This will allow you to simply type 'mongod' or 'mongo' to start up the database instead of the annoyingly long file path shown in the Mongo Docs.
 - [ ] Install [REST Clients](https://www.getpostman.com/downloads/)  
   * The individual plan is free.
   * Postman will allow you to easily test API servers using any of the standard RESTful methods (GET,POST,PUT,PATCH,DELETE) with full control over headers, body and authentication.
 
 
-- [ ] Install Extra useful tools
-  * [Robo 3T](https://robomongo.org/download)
-- Optional for visual people
+- Optional Git tools for visual people
   * [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
 ## TROUBLESHOOTING
@@ -41,3 +35,9 @@ Proceed to the rest of the Developer Onboarding Document.
 ### HTTP Status Code Resources
   * [Nouri Most Used HTTP Status Codes](https://github.com/nourimeals/documents/tree/master/Getting-Started/05_HTTP_Status_Codes.md)
   * [REST API Tutorial's Helpful Page](https://www.restapitutorial.com/httpstatuscodes.html)
+
+### Serverless Documentation
+  * [Serverless Framework Docs](https://www.serverless.com/framework/docs/)
+
+### AWS DynamoDB Documentation
+  * [Developer Guide and API Reference](https://docs.aws.amazon.com/dynamodb/index.html)
