@@ -2,9 +2,10 @@
 
 By joining and participating in our Nouri Community, you agree to abide by our code of conduct outline below:
 
-- Be a good human. Any interaction with other members should be approached with humility, forgiveness and fostering understanding. Let's build each other up.
+- Be a good human. Any interaction with other members should be approached with humility, forgiveness and fostering understanding. Let's put aside our egos and build each other up.
 - Keep a family friendly environment.
 - Keep information intended to be private, including other folks' membership here, private.
+- Stay on topic in the different channels. If there is big need for new channels for specific topics, let the admins know.
 
 Any improper behavior and interaction should be brought to an admin's attention.
 

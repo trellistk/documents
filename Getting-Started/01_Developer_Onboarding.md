@@ -8,13 +8,15 @@ We have a secondary mission which is to help mentor and build up software engine
 - If you find ways to improve our documentations, take ownership and create Pull Requests or Issues
 
 ## Board Members
-- President & Tech Lead: Amber Kim
+- Chair & Tech Lead: Amber Kim
   - Office Hours: Saturday mornings from after standup to 11am PST.
 - Vice President: Cody Green
 - General Board Member: Ryan Johnson
 
-## Repositories
-We have public repos in our GitHub org but also private repos in Amber's account for now. We plan to migrate the private repos to the org once we have more substantial code and funding. Once we've validated and cleaned things up for the public, we plan on making the private repos or creating a public version of the private repos to release for open source.
+## Officer(s)
+- COO: Timothy Kim
+
+## Repositories to Note
 - [General Documentation](https://github.com/nourimeals/documents)
   - Tools: Markdown
 - [Website](https://github.com/nourimeals/website)
@@ -22,9 +24,6 @@ We have public repos in our GitHub org but also private repos in Amber's account
 - [Back End API](https://github.com/ambergkim/nouri-serverless)
   - Private
   - Tools: Node, Jest, TDD, Serverless, DynamoDB
-- [Front End App](https://github.com/ambergkim/nouri-native)
-  - Private
-  - Tools: Node, React-Native, Jest, TDD
 
 ## PreRequisites
 
@@ -32,8 +31,7 @@ We have public repos in our GitHub org but also private repos in Amber's account
 - [Slack](https://slack.com/downloads)
   - Profile:
     - Add a picture of you so we know what you look like
-    - Under ```Skype``` Add your github handle and your email
-    - Under ```What I do``` Add your position and skills
+    - Fill out your profile information so folks can know more about you.
   - Channels:
     - If you're actively developing: #nouri_developers
 - [Google Account](https://accounts.google.com/signup/)
@@ -43,8 +41,8 @@ NOTES: We highly recommend using a Mac computer as it will make development much
 - Install
   - [Node](https://nodejs.org/en/download/)
   - [Git](https://www.atlassian.com/git/tutorials/install-git)
-  - [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
   - [Postman](https://www.getpostman.com/downloads/)
+  - For project specific requirements, check the repository specific documentation.
 - Optional for visual people
   - [SourceTree](https://www.sourcetreeapp.com/) or [GitKraken](https://www.gitkraken.com/download)
 
