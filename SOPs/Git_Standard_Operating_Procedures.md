@@ -6,106 +6,86 @@ We will be using the rebase and merge strategy for keeping our history clean. As
 We highly recommend using a tool such as SourceTree to help you visualize what is going on with the history and your current place in it.
 
 ## Important Notes:
-* Keep your master and your branches up-to-date. Don't let your branch fall behind as this will give you more and more headaches whenever there are merge conflicts the longer you wait to update. Do this before starting work and whenever you see that master has moved.
-* When making commits, group together by purpose so that it is easier to see what has changed. Ignore irrelevant formatting changes when it's not related to your work as this clutters up the diff.
+* Keep your master up-to-date. Don't let your branch fall behind as this will give you more and more headaches whenever there are merge conflicts the longer you wait to update. Do this before starting work and whenever you see that master has moved.
+* When making commits, group together by purpose so that it is easier to see what has changed.
+* Squash commits that are related. Don't keep any test commits that don't tell a useful story of what is going on. Ideally, when you make your Pull Request, you will only have one commit.
+* Keep commits small
+* Make commit messages verbose. Include a title, description, the issue number(s), and explanation of what has changed and why.
+* Ignore irrelevant formatting changes when it's not related to your work as this clutters up the diff.
 
 ## The Steps
 
-### Update develop or master
-```
-git checkout develop
-git pull origin develop
-```
-
+1. Update master
 ```
 git checkout master
 git pull origin master
 ```
-
-### Naming Branches
-For issues
+2. Create your new feature branch
+Use a similar pattern:
 ```
-<your gh username>/issues/<issue number>-<issue-title>
-
-example:
-ambergkim/issues/15-fixing-404-route
+<issue/feature/bugfix/hotfix/doc/refactor>/<issue number>/<title>
 ```
 
-For features
 ```
-<your gh username>/feature/<feature-title>
-
-example:
-ambergkim/feature/adding-user-route
+git checkout -b issue/123/x-route
 ```
 
-For documentation
+3. Make your changes, create commits
 ```
-<your gh username>/docs/<doc-title>
-
-example:
-ambergkim/docs/github-workflow
-```
-
-### Create Your Branch
-Create your new branch while you are on develop so that you are autmatically branched from develop. Example:
-```
-git checkout -b ambergkim/docs/github-workflow
-```
-
-### Rebasing an Existing Branch
-After you have updated your develop with the remote develop, check out your existing branch then do:
-```
-git rebase develop
-```
-Resolve all your conflicts then push up to your remote branch. You may have to do a
-```
-git push -f origin <your branch name>
-```
-
-### Writing Your Commit Messages
-If you are in the middle of your work but want to save your work in the cloud for safety, begin your commit message with 'in progress,' so that we know your work is still ongoing.
-
-### A-C-P
-After you make a set of changes
-```
-git status
 git add .
-git commit -m '<your message here>'
-git push
+git commit -m 'commit message'
 ```
 
-### Squash Your Related Commits
-If you're not a command line guru, we highly recommend you use SourceTree's interactive rebase to do this so that you can have visual feedback of what you are doing.
-
-Squashing your related commits will get rid of history that's not important. We don't care how you turned left then right then left and right in order to get to your final destination. We only want to know that you got to the end.
-
-Don't squash all your commits into one if they are unrelated. If you added one feature and then added a change to the documentation and tests for this feature, it's ok to squash them together, but if the tests or documentation address something else, keep them separated.
-
-After squashing you may have to do this to be able to push your changes
+4. Update your branch with master
 ```
-git push -f origin <your branch name>
+git checkout master
+git pull
+git checkout <your branch>
+git rebase master
 ```
 
-### Ensure Tests Are Passing
-Make sure your tests are passing before you create your pull request
+5. Fix any conflicts. You will notice, if you have a lot of commits in your branch, and there are conflicts, you may end up having to resolve many things over and over. This is why it's important to make sure to squash related commits.
+
+6. Preparing for a pull request
+Do an [interactive rebase](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History). It is highly recommended for those less comfortable with command line Git to use [Sourcetree](https://www.atlassian.com/blog/sourcetree/interactive-rebase-sourcetree)
+- Start an interactive rebase. With source tree, you check out your branch, right click on master and choose to rebase interactively.
+- Sqash your commits together
+- Prepare your overall commit message
+Example commit message:
 ```
-npm run test
+Updating the documents with new SOP
+Issue#145
+
+Changes:
+- We no longer use develop branches so we are updating
+to only use master
+- Adding emphasis on using rebasing and keeping up with
+master.
+```
+Make sure to not use long lines
+
+7. Push your changes
+Rebasing or changing any history will reject a normal ``git push``, so you will have to do a force push
+```
+git push -f origin <your branch>
 ```
 
-### Creating Your Pull Request
-Create your pull request to develop. Assign a merge develop and any relevant folks to review your code. It is important to have a good description of what your pull request is all about. Include this information in your pull request when relevant:
-- [ ] Descriptive but concise title
-- [ ] The problem you are trying to solve
-- [ ] Your approach to solving the problem
-- [ ] What is the current state
-- [ ] What is the state after you've made your changes
+8. Go to GitHub and create your Pull Request
+- Make sure the PR description is accurate and verbose
+- If you are not ready for your PR to be reviewed, create it as a draft
+- Make sure tests are passing
+- Request for your PR to be reviewed
 
-### Applying Feedback
-Treat your new commits from addressing your feedback just like your previous commits. Related commits need to be squashed into one commit. For example, you added a new feature then created a pull request for it. Then you made a new commit to address requested changes to your feature. The new changes need to be squashed into your original commit. The commits may not be in the correct order for squashing, so doing an interactive rebase is very useful for this. Check out this tutorial in how to do this with [Sourcetree](https://www.atlassian.com/blog/sourcetree/interactive-rebase-sourcetree).
+9. After getting your review
+- Address feedback and make necessary changes
+- Clean up your Git history again with squashes and ensure your commit is clean and small.
 
-### Merging
-Merging will be done by merge masters
+10. Once tests are passing and you have admin approval, you may merge your pull request.
 
-### Cleanup
+11. Testing
+After your changes have been merged into master, if automatic deployment is available to a testing envrionment, check your deployed work to make sure it's working
+
+12. Cleanup
 After your branch has been merged and/or is no longer needed, you may delete your branch from GitHub and your local machine.
+
+13. After your work has been tested and we are ready, your work will be deployed to production once a release has been created.
