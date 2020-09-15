@@ -61,7 +61,9 @@ NOTES: We highly recommend using a Mac computer as it will make development much
   * [ES6 Features](http://es6-features.org/)
   * [Eloquent JavaScript](http://eloquentjavascript.net/)
   * [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS)
-
+  * [Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+  * [Javascript state encapsulation without classes](https://hackernoon.com/javascript-state-encapsulation-without-classes-in-2019-97e06c6a9643)
+  
 ## Meetings:
 - [Planning](https://docs.google.com/document/d/1Q_A0m_WtXixXp2mU2jzjUKOdWEdRajeeUR6InBdEn9Y/edit#heading=h.5fm44xysy1n9)
 - We meet Saturday mornings for Standup and sometimes planning and retrospectives at 8am PST via video chat. The meeting link is shared in our slack channels before we start.
