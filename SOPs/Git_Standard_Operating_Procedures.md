@@ -72,8 +72,6 @@ We will use regular merge commits or squash commits for merging feature branches
 
    Co-authored-by: name <name@example.com>
 
-   Related Issue #145
-
    Why:
    Our documentation is outdated and no longer reflects what we actually do.
 
@@ -81,6 +79,8 @@ We will use regular merge commits or squash commits for merging feature branches
    - We no longer use develop branches so we are updating to only use master
    - Adding emphasis on using rebasing and keeping up with
    master.
+
+   Closes #<issue number>
    ```
    Make sure to not use long lines
 
