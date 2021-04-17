@@ -20,6 +20,8 @@ One of the ways we do this is through mentoring and helping our volunteers gain 
 
 - [Development Learning Resources](./Development/)
 
+- [Submitting Proposals](./Getting-Started/06_How_to_Submit_Proposals.md)
+
 ## For Starting a Business/Freelancing
 
 - [Small Business Resources](./Webinars/Small%20Business%20Resources/)
