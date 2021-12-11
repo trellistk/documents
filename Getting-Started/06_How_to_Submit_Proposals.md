@@ -2,11 +2,11 @@
 
 If you have new ideas, designs, features, pivots and other things that need approval, you are in the right place.
 
-You can find existing Proposals in our GitHub Project [here](https://github.com/nourimeals/documents/projects/1).
+You can find existing Proposals in our GitHub Project [here](https://github.com/Trellis Toolkitmeals/documents/projects/1).
 
 ## Creating a New Proposal
 
-1. Go to our GitHub Issues [here](https://github.com/nourimeals/documents/issues).
+1. Go to our GitHub Issues [here](https://github.com/Trellis Toolkitmeals/documents/issues).
 2. Click on the New Issue button.
 
 ![New Issue Button](./images/new_issue.png)
@@ -35,7 +35,7 @@ You can find existing Proposals in our GitHub Project [here](https://github.com/
 
 ![Submit Proposal](images/submit_proposal.png)
 
-9. If you've added your issue to the Proposal project correctly, you should see it in the project's Draft column [here](https://github.com/nourimeals/documents/projects/1).
+9. If you've added your issue to the Proposal project correctly, you should see it in the project's Draft column [here](https://github.com/Trellis Toolkitmeals/documents/projects/1).
 
 ![Proposal draft column](images/proposal_draft_column.png)
 

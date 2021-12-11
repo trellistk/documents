@@ -12,7 +12,7 @@ This is very important. If you don't know the needs of all the users involved, y
 
 See your [How to ask Questions](../Getting-Started/how_to_ask_questions.md) document for how to do you research.
 
-See [How Nouri Feeds People](../How%20Nouri_Feeds_People.md) document for what we are currently doing. Don't forget to ask questions in case the above is outdated.
+See [How Trellis Toolkit Feeds People](../How%20Trellis Toolkit_Feeds_People.md) document for what we are currently doing. Don't forget to ask questions in case the above is outdated.
 
 ## Decide on an idea/problem to tackle
 Do not create solutions for problems that are non-existent. Find the problem first, see if it's something that is feasible with your abilities, the team's abilities, the amount of bandwidth we have, and our tooling capabilities.

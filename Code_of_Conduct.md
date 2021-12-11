@@ -1,6 +1,6 @@
-# Nouri Code of Conduct
+# Trellis Toolkit Code of Conduct
 
-By joining and participating in our Nouri Community, you agree to abide by our code of conduct outline below:
+By joining and participating in our Trellis Toolkit Community, you agree to abide by our code of conduct outline below:
 
 - Be a good human. Any interaction with other members should be approached with humility, forgiveness and fostering understanding. Let's put aside our egos and build each other up.
 - Keep a family friendly environment.

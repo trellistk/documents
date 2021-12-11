@@ -1,4 +1,4 @@
-# Main HTTP Status Codes Used By NouriMeals
+# Main HTTP Status Codes Used By Trellis ToolkitMeals
 
 ### 2xx Success
   * 200 - OK: The request has succeeded.

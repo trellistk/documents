@@ -33,7 +33,7 @@ Proceed to the rest of the Developer Onboarding Document.
   * [NodeJS On Windows Guidelines](https://github.com/Microsoft/nodejs-guidelines)
 
 ### HTTP Status Code Resources
-  * [Nouri Most Used HTTP Status Codes](https://github.com/nourimeals/documents/tree/master/Getting-Started/05_HTTP_Status_Codes.md)
+  * [Trellis Toolkit Most Used HTTP Status Codes](https://github.com/Trellis Toolkitmeals/documents/tree/master/Getting-Started/05_HTTP_Status_Codes.md)
   * [REST API Tutorial's Helpful Page](https://www.restapitutorial.com/httpstatuscodes.html)
 
 ### Serverless Documentation

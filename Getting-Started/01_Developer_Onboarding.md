@@ -1,5 +1,5 @@
 # Welcome!
-Thank you for joining us in our mission to feed low income children and their families! If you haven't done so already, you can find some info about us at our [website](https://nourimeals.org/).
+Thank you for joining us in our mission to feed low income children and their families! If you haven't done so already, you can find some info about us at our [website](https://Trellis Toolkitmeals.org/).
 
 We have a secondary mission which is to help mentor and build up software engineer leaders.
 
@@ -16,11 +16,11 @@ We have a secondary mission which is to help mentor and build up software engine
 - COO: Timothy Kim
 
 ## Repositories to Note
-- [General Documentation](https://github.com/nourimeals/documents)
+- [General Documentation](https://github.com/Trellis Toolkitmeals/documents)
   - Tools: Markdown
-- [Website](https://github.com/nourimeals/website)
+- [Website](https://github.com/Trellis Toolkitmeals/website)
   - Tools: Node, React
-- [Back End API](https://github.com/ambergkim/nouri-serverless)
+- [Back End API](https://github.com/ambergkim/Trellis Toolkit-serverless)
   - Tools: Node, Jest, TDD, Serverless, DynamoDB
 
 ## PreRequisites
@@ -51,8 +51,8 @@ NOTES: We highly recommend using a Mac computer as it will make development much
 - [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
 - [How to use Git efficiently](https://www.freecodecamp.org/news/how-to-use-git-efficiently-54320a236369/?source=linkShare-e41cd5edcdac-1535829065)
 
-#### Nouri SOP's
-- [Nouri's Git Standard Operating Procedures](../SOPs/Git_Standard_Operating_Procedures.md)
+#### Trellis Toolkit SOP's
+- [Trellis Toolkit's Git Standard Operating Procedures](../SOPs/Git_Standard_Operating_Procedures.md)
 - [Finding Stuff to Work On](02_GitHub_Issues.md)
 - [Pipelines/TDD/CI/CD.md](03_Pipelines_CI_CD.md)
 
