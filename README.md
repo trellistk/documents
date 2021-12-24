@@ -1,8 +1,8 @@
-# Nouri Documents
+# Trellis ToolKit Documents
 
 This repository holds all of Nouri's public, global documents.
 
-One of Nouri's mission is to enable people in our communities to have good careers to enable them to support themselves and their families.
+One of Trellis ToolKit's mission is to enable people in our communities to have good careers so that they are able to support themselves and their families.
 
 One of the ways we do this is through mentoring and helping our volunteers gain real world experience through our software projects. Many of the resources in this repository are here to support that mission.
 
@@ -19,8 +19,8 @@ One of the ways we do this is through mentoring and helping our volunteers gain 
 - [Job Hunting Resources](./Job-Hunting/)
 
 - [Development Learning Resources](./Development/)
-
-- [Submitting Proposals](./Getting-Started/06_How_to_Submit_Proposals.md)
+  
+- If you're not ready to work on our projects but are looking for resources for learning. See our [Coding Practice](./Coding_Practice). If you don't see an assignment relevant to what you want to learn, chat with our admins on Slack.
 
 ## For Starting a Business/Freelancing
 

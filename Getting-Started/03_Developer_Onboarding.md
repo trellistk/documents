@@ -1,42 +1,23 @@
 # Welcome!
-Thank you for joining us in our mission to feed low income children and their families! If you haven't done so already, you can find some info about us at our [website](https://Trellis Toolkitmeals.org/).
-
-We have a secondary mission which is to help mentor and build up software engineer leaders.
+We're excited you are joining us. We hope to be able to help you build your portfolio and experience so that you can level up in your careers.
 
 ## Important Notes
-- If you get stuck or need permissions for things, reach out to our other devs in Slack or Amber Kim who is our CTO or Roger Keith who is our Lead Engineer.
+- If you get stuck or need permissions for things, reach out to our other devs in Slack our admins.
 - If you find ways to improve our documentations, take ownership and create Pull Requests or Issues.
 
-## Board Members & Leaders
-- Chair & CTO: Amber Kim
-  - Office Hours: Saturday mornings 10am PST or later.
-- Vice President: Cody Green
-- General Board Member: Ryan Johnson
-- Lead Engineer: Roger Keith
-- COO: Timothy Kim
-
 ## Repositories to Note
-- [General Documentation](https://github.com/Trellis Toolkitmeals/documents)
-  - Tools: Markdown
-- [Website](https://github.com/Trellis Toolkitmeals/website)
-  - Tools: Node, React
-- [Back End API](https://github.com/ambergkim/Trellis Toolkit-serverless)
-  - Tools: Node, Jest, TDD, Serverless, DynamoDB
+- [General Documentation](https://github.com/trellistk/documents)
+- [Serverless SSR Starter](https://github.com/trellistk/trellis-sls-ssr-starter)
+- [Simple SLS SSR](https://github.com/trellistk/simple-sls-ssr)
 
 ## PreRequisites
 
 ### Communications:
 - [Slack](https://slack.com/downloads)
-  - Profile:
-    - Add a real picture of you so we know what you look like
-    - Fill out your Slack profile information so folks can know more about you.
-  - Channels:
-    - #volunteer-hangout
-    - We also have private channels for each project.
-- [GitHub Account](https://github.com/)
+- [GitHub](https://github.com/)
 
 ### Development
-NOTES: We highly recommend using a Mac computer as it will make development much easier but if you have a PC, Take a look at the [Windows Setup Documentation](windows-setup.md).
+NOTES: We highly recommend using a Mac computer as it will make development much easier but if you have a PC, Take a look at the [Windows Setup Documentation](Windows_Setup.md).
 - Install
   - [Node](https://nodejs.org/en/download/)
   - [Git](https://www.atlassian.com/git/tutorials/install-git)
@@ -53,8 +34,7 @@ NOTES: We highly recommend using a Mac computer as it will make development much
 
 #### Trellis Toolkit SOP's
 - [Trellis Toolkit's Git Standard Operating Procedures](../SOPs/Git_Standard_Operating_Procedures.md)
-- [Finding Stuff to Work On](02_GitHub_Issues.md)
-- [Pipelines/TDD/CI/CD.md](03_Pipelines_CI_CD.md)
+- [Finding Stuff to Work On](04_GitHub_Issues.md)
 
 #### Reading and Reference Materials
   * [ES6 Features](http://es6-features.org/)
@@ -65,9 +45,9 @@ NOTES: We highly recommend using a Mac computer as it will make development much
   * [Publicizing or hiding your private contributions on your profile](https://docs.github.com/en/enterprise-server@2.20/github/setting-up-and-managing-your-github-profile/publicizing-or-hiding-your-private-contributions-on-your-profile)
   
 ## Meetings
-- We don't have regular meetings. Instead, we work asynchronously as much as possible.
+- We don't have regular meetings. Instead, we work asynchronously as much as possible. The ability to work asynchronously is also highly valued in many tech workplaces. Meetings tend to eat into productivity as they take a lot of time away from writing code and cause a lot of context switching.
 - We communicate mostly through Slack and GitHub for specific issues.
 - We do calls for pair programming, help with debugging, mentoring, 1:1 sessions, etc. as needed.
 
 ## When life happens or your priorities change
-Let us know! Most of us have day jobs and other commitments. How much you commit is exactly up to you. If you're no longer able to volunteer, we will just remove you from private channels and from certain repos and tools since we are limited in capacity in some tools and because we will be working with certain private information.
+Let us know! Most of us have day jobs and other commitments. How much you commit is exactly up to you.

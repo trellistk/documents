@@ -19,7 +19,7 @@ Please ensure that you have read our [Code of Conduct](../Code_of_conduct.md) be
 - [Windows Desktop](https://www.microsoft.com/en-us/store/p/slack/9wzdncrdk3wp)
 
 ## Browser
-You can also access Slack through the browser by going to [Trellis ToolKit Slack Worksspace](http://Trellis trellisk.slack.com) but we highly recommend downloading the apps so that you can have calling capability and notifications on your phone. Calling may work if you open the website in Chrome.
+You can also access Slack through the browser by going to [Trellis ToolKit Slack Worksspace](http://Trellis trellisk.slack.com) but we highly recommend downloading the app.
 
 ## Notifications
 Don't miss news, events and our messages! Please make sure to turn on your notifications. [Instructions here](https://l.messenger.com/l.php?u=https%3A%2F%2Fslack.com%2Fhelp%2Farticles%2F201355156-Guide-to-desktop-notifications&h=AT1u--ri5qyffxhXO7lS0R9elJ1jC23kb9nrOiUJGToxbjyU6apB_jtPoGs-OvEwdbLxPCvectlYT-56gz7uOhRonw_9By3sosBSaFHLHQjpq8cTZqanGGtCBkWwr0MvoCqvKic)

@@ -1,6 +1,6 @@
 # How to ask questions
 
-Don't just say, "it's not working," "I can't figure it out," or "How do I solve this?" Learning how to ask questions is an integral part of growing as a developer. The better questions you ask, the better you can communicate with a development team.
+Don't just say, "it's not working," "I can't figure it out," or "How do I solve this?" Learning how to ask questions is an integral part of growing as a developer and learning how to work with a team. The better questions you ask, the better you can communicate in interviews and in the workplace.
 
 So if asking a question is not like asking a question, 😵 how do we ask questions?
 
@@ -27,4 +27,4 @@ When you are asking for help, it is very beneficial to whoever is helping you to
 
 While going through the process of building your "question", you may not even need to present it to someone to get help.
 
-Going through and writing out your problem in this way before you ask for help can also help you solve your problem. We should know, we do it all the time!
+Going through and writing out your problem in this way before you ask for help can also help you solve your own problem. We should know, we do it all the time!
